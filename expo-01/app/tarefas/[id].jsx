@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { atualizarTarefa, getTarefa, removerTarefa } from "@/back4app";
+import { atualizarTarefa, getTarefa, removerTarefa } from "@/api";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function TarefaDetalhesPage() {

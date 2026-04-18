@@ -10,7 +10,7 @@ import {
   View,
 } from "react-native";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { adicionarTarefa, getTarefas } from "@/back4app";
+import { adicionarTarefa, getTarefas } from "@/api";
 import { useRouter } from "expo-router";
 
 export default function TarefasPage() {
