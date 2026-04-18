@@ -48,7 +48,8 @@
       "policy": "appVersion"
     },
     "updates": {
-      "enabled": false
+      "enabled": false,
+      "url": "https://u.expo.dev/ad5ee349-f68a-4fe3-9bcb-6ebb7c075392"
     },
     "extra": {
       "router": {},
