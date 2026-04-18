@@ -71,7 +71,7 @@ export default function TarefaDetalhesPage() {
         {
           text: "Excluir",
           style: "destructive",
-          onPress: () => deleteMutation.mutate(id),
+          onPress: () => deleteMutation.mutate(id), // O 'id' aqui já vem do useLocalSearchParams
         },
       ],
     );
