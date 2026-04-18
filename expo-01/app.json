@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-01",
-    "slug": "expo-01-julia",
+    "slug": "atv-expo-01-julia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -49,6 +49,13 @@
     },
     "updates": {
       "enabled": false
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ad5ee349-f68a-4fe3-9bcb-6ebb7c075392"
+      }
+    },
+    "owner": "juliamnz"
   }
 }
